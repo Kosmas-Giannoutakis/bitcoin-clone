@@ -1,7 +1,7 @@
 const Transaction = require('./transaction');
 const { STARTING_BALANCE } = require('../config');
 const { ec, cryptoHash } = require('../util');
-// const { addListener } = require('nodemon');
+const { addListener } = require('nodemon');
 
 class Wallet {
     constructor() {
